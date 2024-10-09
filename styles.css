@@ -182,3 +182,13 @@ h1 {
     display: inline-block;
     flex-shrink: 0;
 }
+
+/* FOOTER */
+
+footer {
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 4rem 0;
+}

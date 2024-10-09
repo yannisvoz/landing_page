@@ -124,3 +124,23 @@ h1 {
     flex-direction: column;
     justify-content: center;
 }
+
+/* TESTIMONIAL */
+
+.testimonial {
+    background: #e5e7eb;
+    padding: 4rem 8rem;
+}
+
+.testimonial-text {
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.testimonial-author {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: right;
+}

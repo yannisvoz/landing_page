@@ -68,7 +68,7 @@ main {
 
 .hero-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 8rem 10rem 0 8rem;
 }
@@ -97,4 +97,30 @@ h1 {
     padding: 1rem 2rem;
     border-radius: 1rem;
     font-size: 1.8rem;
+}
+
+/* INFO */
+
+.info {
+    padding: 2rem 8rem;
+}
+
+.info-header {
+    font-size: 3.6rem;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.info-img-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.info-img-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

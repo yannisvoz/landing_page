@@ -144,3 +144,41 @@ h1 {
     font-weight: bold;
     text-align: right;
 }
+
+/* CTA */
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 4rem auto;
+    padding: 4rem 8rem;
+    background: #3882f6;
+    color: #e5e7eb;
+    border-radius: 1rem;
+}
+
+.cta-text-container {
+    padding-right: 4rem;
+}
+
+.cta-header {
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.8rem;
+}
+
+.sec-cta-button {
+    color: #e5e7eb;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    flex-shrink: 0;
+}

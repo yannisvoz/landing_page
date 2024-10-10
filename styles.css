@@ -99,6 +99,10 @@ h1 {
     font-size: 1.8rem;
 }
 
+.hero a:hover {
+    background: #2969ce;
+}
+
 /* INFO */
 
 .info {
@@ -181,6 +185,10 @@ h1 {
     text-decoration: none;
     display: inline-block;
     flex-shrink: 0;
+}
+
+.sec-cta-button:hover {
+    background: #3882f6;
 }
 
 /* FOOTER */
